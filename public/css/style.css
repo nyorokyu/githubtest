@@ -1,0 +1,284 @@
+@charset "UTF-8";
+body {
+  background: #f5f5f5;
+}
+header {
+  background: #fff;
+  box-shadow: 0 2px 4px #0003;
+  min-height: 60px;
+  padding: 0;
+  position: relative;
+}
+header h1 {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#area-dropdown {
+  margin-top: -4px;
+  cursor: pointer;
+}
+#area-dropdown > ul {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #3333;
+  box-sizing: content-box;
+  padding: 1em 2em;
+  position: absolute;
+  top: 28px;
+  right: 0;
+  margin: auto;
+  width: 10em;
+  z-index: 9999;
+}
+#area-dropdown > ul a {
+  display: block;
+}
+#area-dropdown .icon {
+  margin-left: .25em;
+  margin-right: 0;
+}
+main{
+  min-height: calc(100vh - 100px);
+}
+.absolute-150 {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+}
+.absolute-200 {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+.box-flex .margin-t-8 {
+  margin-top: 8px;
+}
+.box-btn {
+  margin-top: 20px;
+}
+.btn {
+  border-radius: 2px;
+  padding: 4px 20px;
+}
+.btn:hover {
+  background: #4285f4cc;
+}
+.btn:hover::after {
+  left: -1em;
+}
+.btn-back:hover {
+  background: #666c
+}
+.b-color {
+  background: #fff;
+  border-radius: 4px;
+}
+.color-r {
+  color: #da4437;
+}
+header .btn {
+  padding: .5em 20px;
+}
+main .btn::after {
+  content: none;
+}
+main .btn:hover {
+  background: #fff;
+  border: 1px solid #4285f4;
+  color: #4285f4;
+  transition: all .3s;
+}
+.form .btn-submit {
+  padding: 4px 20px;
+}
+.form .btn-delete {
+  border: 1px solid #da4437;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: .25em;
+  background: #da4437;
+  border-radius: 2px;
+  display: block;
+  padding: 4px 20px;
+  text-align: center;
+  transition: all .3s;
+  width: 50%;
+  margin: 0 auto;
+}
+.form .btn-delete:hover {
+    background: #fff;
+    color: #da4437;
+    transition: all .3s;
+}
+.form select {
+  width: 100%;
+}
+.form .margin-t {
+  margin-top: 0.5em;
+}
+.form2 .btn-submit {
+  margin: 15px 300px 0 auto;
+}
+.form2 .btn {
+  margin: inherit;
+  width: 200px;
+}
+.form2 textarea {
+  width: 70%;
+}
+.form2 .w-30p {
+  width: 30%;
+}
+.w-80p .btn,
+.w-80p .btn-delete {
+  width: 80%;
+}
+.w-25p {
+  width: 25%;
+}
+
+.frame {
+  padding: 2%;
+}
+.flex-none .box-flex > * {
+  flex: none;
+}
+.download-image {
+  width: 100%;
+}
+.p-margin p:first-child {
+  margin-right: 1em;
+}
+.p-margin p:nth-child(odd) {
+  margin-right: 1em;
+}
+.p-margin p:nth-child(even) {
+  margin-right: 2em;
+}
+
+.table {
+  background: #fff;
+  border: 1px solid #212121;
+  font-size: .8em;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.table th {
+  background: #ccc;
+  font-weight: normal;
+  text-align: center;
+}
+.table th,
+.table td {
+  border: 1px solid #212121;
+  padding: .5em;
+}
+.table2 td {
+  padding: 1em;
+}
+.table .align-c,
+.table .align-r {
+  display: table-cell;
+}
+.txt-r {
+  text-align: right;
+}
+.margin-b20 .table {
+  margin-bottom: 0.5em;
+}
+
+.text-hidden {
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 40%;
+}
+.ellipsis {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.w-inherit input,
+.w-inherit .btn-submit,
+.w-inherit .btn {
+  width: inherit;
+}
+.w-300 {
+  width: 300px;
+}
+.w-200 {
+  width: 200px;
+}
+.w-100 {
+  width: 100px;
+}
+.w-50 {
+  width: 50px;
+}
+.margin-lr {
+  margin: 0 1%;
+}
+.padding-a {
+  padding: 14%;
+}
+.padding-a .btn-submit {
+  margin: 0 auto;
+}
+
+.box-float-r .btn,
+.box-float-r .btn-submit {
+  width: 100%;
+}
+.tox-tinymce {
+  height: 500px !important;
+}
+.label-private {
+  background: #dd423c;
+  border-radius: 2px;
+  color: #fff;
+  font-size: .6em;
+  padding: 2px 8px;
+  position: relative;
+  top: -1px;
+  margin: 0 0 0 .5em;
+}
+.padding-a .btn {
+  padding: 1em 0;
+}
+.padding-4 button {
+  padding: 4px;
+}
+
+/***** admin.home *****/
+#area-admin-home .box-flex .btn {
+  padding: 1em 0;
+  width: 100%;
+}
+
+.mce-tinymce div {
+  margin-top: 0;
+}
+.mce-tinymce img {
+  width: 480px;
+}
+
+@media print {
+  header {
+    display: none;
+  }
+  .layout2 {
+    width:100%;
+  }
+  .table2 td {
+    padding: 0.5em;
+  }
+}
+
+@media screen and (max-width: 648px) {
+
+}
